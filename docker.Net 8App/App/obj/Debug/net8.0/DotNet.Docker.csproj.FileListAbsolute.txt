@@ -1,0 +1,15 @@
+/home/fami/Documents/project/Docker/learn_docker/docker.Net 9App/App/bin/Debug/net8.0/DotNet.Docker
+/home/fami/Documents/project/Docker/learn_docker/docker.Net 9App/App/bin/Debug/net8.0/DotNet.Docker.deps.json
+/home/fami/Documents/project/Docker/learn_docker/docker.Net 9App/App/bin/Debug/net8.0/DotNet.Docker.runtimeconfig.json
+/home/fami/Documents/project/Docker/learn_docker/docker.Net 9App/App/bin/Debug/net8.0/DotNet.Docker.dll
+/home/fami/Documents/project/Docker/learn_docker/docker.Net 9App/App/bin/Debug/net8.0/DotNet.Docker.pdb
+/home/fami/Documents/project/Docker/learn_docker/docker.Net 9App/App/obj/Debug/net8.0/DotNet.Docker.GeneratedMSBuildEditorConfig.editorconfig
+/home/fami/Documents/project/Docker/learn_docker/docker.Net 9App/App/obj/Debug/net8.0/DotNet.Docker.AssemblyInfoInputs.cache
+/home/fami/Documents/project/Docker/learn_docker/docker.Net 9App/App/obj/Debug/net8.0/DotNet.Docker.AssemblyInfo.cs
+/home/fami/Documents/project/Docker/learn_docker/docker.Net 9App/App/obj/Debug/net8.0/DotNet.Docker.csproj.CoreCompileInputs.cache
+/home/fami/Documents/project/Docker/learn_docker/docker.Net 9App/App/obj/Debug/net8.0/DotNet.Docker.sourcelink.json
+/home/fami/Documents/project/Docker/learn_docker/docker.Net 9App/App/obj/Debug/net8.0/DotNet.Docker.dll
+/home/fami/Documents/project/Docker/learn_docker/docker.Net 9App/App/obj/Debug/net8.0/refint/DotNet.Docker.dll
+/home/fami/Documents/project/Docker/learn_docker/docker.Net 9App/App/obj/Debug/net8.0/DotNet.Docker.pdb
+/home/fami/Documents/project/Docker/learn_docker/docker.Net 9App/App/obj/Debug/net8.0/DotNet.Docker.genruntimeconfig.cache
+/home/fami/Documents/project/Docker/learn_docker/docker.Net 9App/App/obj/Debug/net8.0/ref/DotNet.Docker.dll

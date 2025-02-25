@@ -1,0 +1,35 @@
+name: Build and Tag Docker Image
+
+on:
+  push:
+    branches:
+      - main
+      
+jobs:
+  build-and-tag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup JFrog CLI
+        uses: jfrog/setup-jfrog-cli@v4
+        env:
+          JF_URL: ${{ secrets.JF_URL }}  # Ensure this contains the full URL including the protocol
+          JF_ACCESS_TOKEN: ${{ secrets.JF_ACCESS_TOKEN }}
+
+      - name: Build, Tag, and Push Docker Image
+        env:
+          IMAGE_NAME: trialzyptjt.jfrog.io/textffw-docker/jfrog-docker-example-image:${{ github.run_number }}
+        run: |
+          jf docker build -t $IMAGE_NAME .
+          jf docker push $IMAGE_NAME
+          
+      - name: Publish Build Info with JFrog CLI
+        env:
+          JFROG_CLI_BUILD_NAME: jfrog-docker-build-example
+          JFROG_CLI_BUILD_NUMBER: ${{ github.run_number }}
+        run: |
+          jf rt build-collect-env
+          jf rt build-add-git
+          jf rt build-publish

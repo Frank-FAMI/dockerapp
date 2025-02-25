@@ -1,0 +1,5 @@
+/home/fami/Documents/project/Docker/learn_docker/docker.Net 9App/App/bin/Release/net8.0/publish/DotNet.Docker
+/home/fami/Documents/project/Docker/learn_docker/docker.Net 9App/App/bin/Release/net8.0/publish/DotNet.Docker.dll
+/home/fami/Documents/project/Docker/learn_docker/docker.Net 9App/App/bin/Release/net8.0/publish/DotNet.Docker.deps.json
+/home/fami/Documents/project/Docker/learn_docker/docker.Net 9App/App/bin/Release/net8.0/publish/DotNet.Docker.runtimeconfig.json
+/home/fami/Documents/project/Docker/learn_docker/docker.Net 9App/App/bin/Release/net8.0/publish/DotNet.Docker.pdb
